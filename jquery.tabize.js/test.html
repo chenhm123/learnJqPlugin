@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .tabize_toggle-selected { background: yellow;}
+        .tabize_pane-selected { background:yellow; }
+    </style>
+</head>
+<body>
+<div data-tabize-container>
+    <ul>
+        <li data-tabize-toggle="1" class="tabize_toggle-selected">
+            General
+        </li>
+        <li data-tabize-toggle="2">
+            Markdown
+        </li>
+        <li data-tabize-toggle="3">
+            Evernote
+        </li>
+    </ul>
+    <div data-tabize-content>
+        <div data-tabize-pane="1" class="tabize_pane-selected">1</div>
+        <div data-tabize-pane="2">2</div>
+        <div data-tabize-pane="3">3</div>
+    </div>
+</div>
+</body>
+<script src="//cdn.bootcss.com/jquery/3.0.0/jquery.js"></script>
+<script src="./jquery.tabize.js"></script>
+</html>
