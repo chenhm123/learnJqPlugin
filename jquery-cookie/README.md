@@ -1,0 +1,1 @@
+####the [author](https://github.com/carhartl/jquery-cookie)
